@@ -1,0 +1,7 @@
+*.csv
+*.log
+*.bat
+*.pbix
+__pycache__/
+venv/
+.env
