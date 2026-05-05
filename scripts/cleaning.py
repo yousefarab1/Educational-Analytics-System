@@ -18,7 +18,7 @@ def clean_data(path, logger):
     df.dropna(inplace=True)
     df.drop_duplicates(inplace=True)
     logger.info(f"the sum of null value \n{df.isnull().sum()}")
-    df['date'] = pd.to_datetime(df['date'], errors='coerce')
+    df['session_date'] = pd.to_datetime(df['session_date'], errors='coerce')
 
     logger.info(f"the sum of duplication row is {df.duplicated().sum()}")
     df.to_csv('clean_data.csv', index=False)
