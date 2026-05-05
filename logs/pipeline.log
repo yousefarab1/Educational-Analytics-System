@@ -213,3 +213,208 @@ dtype: int64
 2026-05-05 19:40:19,268 - INFO - Loading data into PostgreSQL
 2026-05-05 19:40:23,408 - INFO - Data loaded successfully
 2026-05-05 19:40:23,408 - INFO - Pipeline finished successfully
+2026-05-05 21:18:26,236 - INFO - Pipeline started
+2026-05-05 21:18:26,237 - INFO - Start reading data
+2026-05-05 21:18:26,755 - INFO - Starting cleanning
+2026-05-05 21:18:26,755 - INFO - Original shape: (164685, 12)
+2026-05-05 21:18:26,772 - INFO - the sum of null value 
+Student_ID              24713
+Age                     24733
+Gender                  24728
+Program                 24733
+Semester                24624
+Exam_Score              24624
+Study_Hours_Per_Week    24646
+session_id                  0
+session_date                0
+session_program             0
+session_semester            0
+status                  51574
+dtype: int64
+2026-05-05 21:18:26,896 - INFO - the sum of duplication row is 49
+2026-05-05 21:18:27,113 - INFO - Cleaned shape: (59476, 12)
+2026-05-05 21:18:27,113 - INFO - Connecting to database
+2026-05-05 21:18:27,264 - INFO - Loading data into PostgreSQL
+2026-05-05 21:18:32,011 - INFO - Data loaded successfully
+2026-05-05 21:18:32,011 - INFO - Pipeline finished successfully
+2026-05-05 21:23:59,150 - INFO - Pipeline started
+2026-05-05 21:23:59,152 - INFO - Start reading data
+2026-05-05 21:23:59,781 - INFO - Starting cleanning
+2026-05-05 21:23:59,781 - INFO - Original shape: (164685, 12)
+2026-05-05 21:23:59,801 - INFO - the sum of null value 
+Student_ID              24713
+Age                     24733
+Gender                  24728
+Program                 24733
+Semester                24624
+Exam_Score              24624
+Study_Hours_Per_Week    24646
+session_id                  0
+session_date                0
+session_program             0
+session_semester            0
+status                  51574
+dtype: int64
+2026-05-05 21:23:59,969 - INFO - the sum of duplication row is 49
+2026-05-05 21:24:00,251 - INFO - the sum of duplication row is 0
+2026-05-05 21:24:00,263 - INFO - Cleaned shape: (59476, 12)
+2026-05-05 21:24:00,263 - INFO - Connecting to database
+2026-05-05 21:24:00,360 - INFO - Loading data into PostgreSQL
+2026-05-05 21:24:05,718 - INFO - Data loaded successfully
+2026-05-05 21:24:05,719 - INFO - Pipeline finished successfully
+2026-05-05 21:24:23,983 - INFO - Pipeline started
+2026-05-05 21:24:23,983 - INFO - Start reading data
+2026-05-05 21:24:24,380 - INFO - Starting cleanning
+2026-05-05 21:24:24,380 - INFO - Original shape: (164685, 12)
+2026-05-05 21:24:24,389 - INFO - the sum of null value 
+Student_ID              24713
+Age                     24733
+Gender                  24728
+Program                 24733
+Semester                24624
+Exam_Score              24624
+Study_Hours_Per_Week    24646
+session_id                  0
+session_date                0
+session_program             0
+session_semester            0
+status                  51574
+dtype: int64
+2026-05-05 21:24:24,487 - INFO - the sum of duplication row is 49
+2026-05-05 21:24:24,674 - INFO - the sum of null value 
+Student_ID              0
+Age                     0
+Gender                  0
+Program                 0
+Semester                0
+Exam_Score              0
+Study_Hours_Per_Week    0
+session_id              0
+session_date            0
+session_program         0
+session_semester        0
+status                  0
+dtype: int64
+2026-05-05 21:24:24,705 - INFO - the sum of duplication row is 0
+2026-05-05 21:24:24,708 - INFO - Cleaned shape: (59476, 12)
+2026-05-05 21:24:24,708 - INFO - Connecting to database
+2026-05-05 21:24:24,780 - INFO - Loading data into PostgreSQL
+2026-05-05 21:24:29,771 - INFO - Data loaded successfully
+2026-05-05 21:24:29,771 - INFO - Pipeline finished successfully
+2026-05-05 21:26:40,914 - INFO - Pipeline started
+2026-05-05 21:26:40,914 - INFO - Start reading data
+2026-05-05 21:26:41,321 - INFO - Starting cleanning
+2026-05-05 21:26:41,321 - INFO - Original shape: (164685, 12)
+2026-05-05 21:26:41,329 - INFO - the sum of null value 
+Student_ID              24713
+Age                     24733
+Gender                  24728
+Program                 24733
+Semester                24624
+Exam_Score              24624
+Study_Hours_Per_Week    24646
+session_id                  0
+session_date                0
+session_program             0
+session_semester            0
+status                  51574
+dtype: int64
+2026-05-05 21:26:41,441 - INFO - the sum of duplication row is 49
+2026-05-05 21:26:41,639 - INFO - the sum of null value 
+Student_ID              0
+Age                     0
+Gender                  0
+Program                 0
+Semester                0
+Exam_Score              0
+Study_Hours_Per_Week    0
+session_id              0
+session_date            0
+session_program         0
+session_semester        0
+status                  0
+dtype: int64
+2026-05-05 21:26:41,668 - INFO - the sum of duplication row is 0
+2026-05-05 21:26:41,671 - INFO - Cleaned shape: (59476, 12)
+2026-05-05 21:26:41,671 - INFO - Connecting to database
+2026-05-05 21:26:41,746 - INFO - Loading data into PostgreSQL
+2026-05-05 21:26:47,199 - INFO - Data loaded successfully
+2026-05-05 21:26:47,199 - INFO - Pipeline finished successfully
+2026-05-05 21:27:46,946 - INFO - Pipeline started
+2026-05-05 21:27:46,946 - INFO - Start reading data
+2026-05-05 21:27:47,349 - INFO - Starting cleanning
+2026-05-05 21:27:47,350 - INFO - Original shape: (164685, 12)
+2026-05-05 21:27:47,361 - INFO - the sum of null value 
+Student_ID              24713
+Age                     24733
+Gender                  24728
+Program                 24733
+Semester                24624
+Exam_Score              24624
+Study_Hours_Per_Week    24646
+session_id                  0
+session_date                0
+session_program             0
+session_semester            0
+status                  51574
+dtype: int64
+2026-05-05 21:27:47,501 - INFO - the sum of duplication row is 49
+2026-05-05 21:27:47,717 - INFO - the sum of null value 
+Student_ID              0
+Age                     0
+Gender                  0
+Program                 0
+Semester                0
+Exam_Score              0
+Study_Hours_Per_Week    0
+session_id              0
+session_date            0
+session_program         0
+session_semester        0
+status                  0
+dtype: int64
+2026-05-05 21:27:47,752 - INFO - the sum of duplication row is 0
+2026-05-05 21:27:48,288 - INFO - Cleaned shape: (59476, 12)
+2026-05-05 21:27:48,288 - INFO - Connecting to database
+2026-05-05 21:27:48,354 - INFO - Loading data into PostgreSQL
+2026-05-05 21:27:52,875 - INFO - Data loaded successfully
+2026-05-05 21:27:52,875 - INFO - Pipeline finished successfully
+2026-05-05 22:04:09,574 - INFO - Pipeline started
+2026-05-05 22:04:09,582 - INFO - Start reading data
+2026-05-05 22:04:10,234 - INFO - Starting cleanning
+2026-05-05 22:04:10,234 - INFO - Original shape: (164685, 12)
+2026-05-05 22:04:10,246 - INFO - the sum of null value 
+Student_ID              24713
+Age                     24733
+Gender                  24728
+Program                 24733
+Semester                24624
+Exam_Score              24624
+Study_Hours_Per_Week    24646
+session_id                  0
+session_date                0
+session_program             0
+session_semester            0
+status                  51574
+dtype: int64
+2026-05-05 22:04:10,370 - INFO - the sum of duplication row is 49
+2026-05-05 22:04:10,610 - INFO - the sum of null value 
+Student_ID              0
+Age                     0
+Gender                  0
+Program                 0
+Semester                0
+Exam_Score              0
+Study_Hours_Per_Week    0
+session_id              0
+session_date            0
+session_program         0
+session_semester        0
+status                  0
+dtype: int64
+2026-05-05 22:04:10,660 - INFO - the sum of duplication row is 0
+2026-05-05 22:04:11,082 - INFO - Cleaned shape: (59476, 12)
+2026-05-05 22:04:11,082 - INFO - Connecting to database
+2026-05-05 22:04:11,198 - INFO - Loading data into PostgreSQL
+2026-05-05 22:04:16,130 - INFO - Data loaded successfully
+2026-05-05 22:04:16,130 - INFO - Pipeline finished successfully
