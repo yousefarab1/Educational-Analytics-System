@@ -42,15 +42,4 @@ The project is being integrated into **Power BI** to deliver:
 - **Trend Analysis:** Visualizing attendance fluctuations over the academic year.
 - **Early Warning System:** Automated alerts for students likely to fail based on attendance trends.
 
-## 💻 Sample SQL Analytics
 
-```sql
-SELECT
-    Program,
-    ROUND(AVG(CASE WHEN LOWER(TRIM(status)) = 'present' THEN 100.0 ELSE 0.0 END), 2) AS Attendance_Rate,
-    ROUND(AVG(Exam_Score), 2) AS Avg_Score,
-    COUNT(*) AS Total_Records
-FROM educational_analytics_dirty
-WHERE Program IS NOT NULL
-GROUP BY Program;
-```
