@@ -7,7 +7,7 @@ def run_pipeline():
 
     logger.info("Pipeline started")
 
-    df = clean_data("data/educational_analytics_dirty.csv", logger)
+    df = clean_data("data/clean_data.csv", logger)
 
     load_data(df, logger)
 

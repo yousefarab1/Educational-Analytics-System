@@ -8,7 +8,6 @@ def clean_data(path, logger):
     logger.info("Starting cleanning")
 
     logger.info(f"Original shape: {df.shape}")
-    logger.info(f"the sum of null value \n{df.isnull().sum()}")
     logger.info(f"the sum of duplication row is {df.duplicated().sum()}")
     
     print(f"{df.info()}")
