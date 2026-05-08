@@ -75,13 +75,16 @@ GROUP BY program
 
 -- List of students with poor attendance and few study hours
 
-SELECT student_id, program, exam_Score
+SELECT 
+    student_id, program, exam_score,
+    RANK() OVER (
+        ORDER BY exam_score DESC
+    ) AS student_rank
 FROM student_attendance
 WHERE status = 'Absent'
-  AND study_hours_per_Week < 5
-  AND exam_Score < 50        
-GROUP BY student_id,program, exam_Score
-ORDER BY exam_Score DESC
+  AND study_hours_per_week < 5
+  AND exam_score < 50
+GROUP BY student_id, program, exam_score
 
 -- TO GET their number
 
